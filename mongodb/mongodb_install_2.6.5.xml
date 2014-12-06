@@ -1,0 +1,13 @@
+<!--
+name: mongodb server 2.6.5
+description: Installs MongoDB server 2.6.5
+keywords: database, mongo
+moreinfo: http://docs.mongodb.org/manual/tutorial
+author: The Game Of Code
+authorinfo: https://github.com/thegameofcode
+-->
+<exec command="apt-get">
+<arg>install</arg>
+<arg>-y</arg>
+<arg>mongodb-org-server=2.6.5</arg>
+</exec>
