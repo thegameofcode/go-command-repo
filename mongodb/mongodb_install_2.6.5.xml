@@ -1,10 +1,11 @@
 <!--
-name: mongodb server 2.6.5
+name: mongodb server 2.6.5 - install
 description: Installs MongoDB server 2.6.5
 keywords: database, mongo
 moreinfo: http://docs.mongodb.org/manual/tutorial
 author: The Game Of Code
 authorinfo: https://github.com/thegameofcode
+command: tar -zxf mongodb-server.tgz -C mongodb
 -->
 <exec command="apt-get">
 <arg>install</arg>

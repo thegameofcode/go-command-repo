@@ -1,0 +1,14 @@
+<!--
+name: mongodb server 2.6.5 - download
+description: Downloads MongoDB server 2.6.5
+keywords: database, mongo
+moreinfo: http://docs.mongodb.org/manual/tutorial
+author: The Game Of Code
+authorinfo: https://github.com/thegameofcode
+command: curl -o ./mongodb-server.tgz https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-2.6.5.tgz
+-->
+<exec command="curl">
+<arg>-o</arg>
+<arg>./mongodb-server.tgz</arg>
+<arg>https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-2.6.5.tgz</arg>
+</exec>
