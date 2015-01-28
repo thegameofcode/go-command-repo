@@ -1,5 +1,5 @@
 <!--
-name: mycomms slack
+name: slack
 description: reports a fail to slack.
 you must set an Environment variable SLACK_URL with your slack url containing the API key
 author: The Game Of Code
