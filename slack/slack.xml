@@ -7,5 +7,5 @@ keywords: slack
 -->
 <exec command="/bin/bash">
 <arg>-c</arg>
-<arg>curl -H "Content-Type: application/json" -d "{ \"fallback\": \"Result of the pipeline ${GO_PIPELINE_NAME}\", \"text\": \"The pipeline {GO_PIPELINE_NAME} ${GO_PIPELINE_COUNTER} failed\",\"pretext\":\"Details\",\"color\":\"warning\",\"fields\":[{\"title\":\"pipeline\",\"value\":\"${GO_PIPELINE_NAME} ${GO_PIPELINE_COUNTER}\",\"short\":false},{\"title\":\"stage\",\"value\":\"${GO_STAGE_NAME}\",\"short\":false},{\"title\":\"job\",\"value\":\"${GO_JOB_NAME}\",\"short\":false},{\"title\":\"environment\",\"value\":\"${GO_ENVIRONMENT_NAME}\",\"short\": false}]}" ${SLACK_URL}</arg>
+<arg>curl -H "Content-Type: application/json" -d "{ \"fallback\": \"Result of the pipeline ${GO_PIPELINE_NAME}\", \"text\": \"The pipeline ${GO_PIPELINE_NAME} ${GO_PIPELINE_COUNTER} failed\",\"pretext\":\"Details\",\"color\":\"warning\",\"fields\":[{\"title\":\"pipeline\",\"value\":\"${GO_PIPELINE_NAME} ${GO_PIPELINE_COUNTER}\",\"short\":false},{\"title\":\"stage\",\"value\":\"${GO_STAGE_NAME}\",\"short\":false},{\"title\":\"job\",\"value\":\"${GO_JOB_NAME}\",\"short\":false},{\"title\":\"environment\",\"value\":\"${GO_ENVIRONMENT_NAME}\",\"short\": false}]}" ${SLACK_URL}</arg>
 </exec>
